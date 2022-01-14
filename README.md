@@ -1,4 +1,4 @@
-# Dynamic Music Discs Updated By Kennas
+# Dynamic Music Discs Update
 
 Rename a dynamic music disc and put it in a jukebox!
 
