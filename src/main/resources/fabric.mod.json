@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "dynamic-discs",
+  "version": "${version}",
+
+  "name": "Dynamic Music Disc",
+  "description": "Rename a Dynamic Disc to play music from Youtube",
+  "authors": [
+    "Rubydesic"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Rubydesic",
+    "sources": "https://github.com/Rubydesic/dynamic-music-discs"
+  },
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ga.rubydesic.dmd.DynamicMusicDiscsModKt::init"
+    ]
+  },
+  "mixins": [
+    "dynamic-discs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.8",
+    "fabric": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "1.18.1"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
